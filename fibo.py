@@ -33,7 +33,7 @@ if __name__ == "__main__":
     ergebnis = fibo(zahl)
     # Beide Funktion einzelnd testen fue jede Zahl!
     #ergebnis = fibo_r(zahl)
-    ende = time.ticks_ms()
+    ende = time.ticks_us()
 
     zeit = (ende - start)
     print("Zahl:", zahl, ", Ergebnis:", ergebnis, ", Zeit:", zeit)
